@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "JEMBE",
+    "slug": "jembe-agricultural-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2d5016"
+    },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.jembe.agriculture"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2d5016"
+      },
+      "package": "com.jembe.agriculture"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to help document your farm.",
+          "cameraPermission": "The app uses the camera to capture farm images."
+        }
+      ]
+    ],
+    "extra": {
+      "remoteSyncUrl": "https://example.com/jembe-updates.json"
+    }
+  }
+}
